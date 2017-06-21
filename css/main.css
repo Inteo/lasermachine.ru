@@ -1450,8 +1450,12 @@ input:focus {
       left: 50%;
       width: 1900px;
       margin-left: -950px;
-      top: 0;
-      height: 100%; }
+      top: 0; }
+      @media (min-width: 1900px) {
+        .preface_img img {
+          width: 100%;
+          left: 0;
+          margin-left: 0; } }
     .preface_img .flex-direction-nav {
       display: none; }
     .preface_img .slides:before, .preface_img .slides:after {
@@ -1582,7 +1586,7 @@ input:focus {
 
 .about {
   padding: 60px 0;
-  background: url(../img/about.png) center bottom no-repeat;
+  background: url(../img/about.png) center bottom;
   text-align: center;
   position: relative;
   z-index: 1; }
