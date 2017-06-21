@@ -1418,6 +1418,7 @@ input:focus {
   overflow: hidden;
   position: relative;
   display: none;
+  z-index: 2;
   background: #edefff; }
   @media (min-width: 550px) {
     .preface {
