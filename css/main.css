@@ -384,7 +384,8 @@ fieldset[disabled] a.btn {
 .btn__bordered {
   background: none;
   border: 1px solid #11214d;
-  color: #11214d; }
+  color: #11214d;
+  box-shadow: none; }
   .btn__bordered:active, .btn__bordered:active:focus, .btn__bordered:hover, .btn__bordered:focus {
     color: #fff;
     background: #001244; }
