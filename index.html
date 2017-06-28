@@ -21,43 +21,59 @@
     <header class="header">
       <div class="header_info">
         <div class="container">
-          <div class="header_search">
-            <form>
-              <button type="submit"><i class="ficon-search"></i></button>
-              <input type="text" placeholder="Поиск по сайту">
-            </form>
-          </div>
-          <div class="header_order">
-            <a href="#" class="btn">Отправить заявку</a>
-          </div>
-          <div class="header_contacts">
-            <div class="header_contacts-holder">
-              <a href="#" class="header_mail">msk@lasermachine.ru</a>
-              <span class="header_phone">+7 (4852) 44-81-91</span>
+          <div class="header_info-holder">
+            <div class="header_search">
+              <form>
+                <button type="submit"><i class="ficon-search"></i></button>
+                <input type="text" placeholder="Поиск по сайту">
+              </form>
+            </div>
+            <div class="header_order">
+              <a href="#" class="btn">Отправить заявку</a>
+            </div>
+            <div class="header_contacts">
+              <div class="header_contacts-holder">
+                <a href="#" class="header_mail">msk@lasermachine.ru</a>
+                <span class="header_phone">+7 (4852) 44-81-91</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="header_main header_main__transparent">
         <div class="container">
-          <div class="header_logo">
-            <a href="/" class="">
-              <img src="img/logo.svg" alt="">
-            </a>
-          </div>
-          <div class="header_menu">
-            <div class="header_menu-holder">
-              <ul>
-                <li><a href="#">Компания</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Продукция</a></li>
-                <li><a href="#">Цены</a></li>
-                <li><a href="#">Оборудование</a></li>
-                <li><a href="#">Сервис</a></li>
-                <li><a href="#">контакты</a></li>
-              </ul>
+          <div class="header_main-wrap">
+            <div class="header_main-holder">
+              <div class="header_logo">
+                <a href="/" class="">
+                  <img src="img/logo.svg" alt="">
+                </a>
+              </div>
+              <div class="header_menu">
+                <div class="header_menu-holder">
+                  <ul>
+                    <li><a href="#">Компания</a></li>
+                    <li>
+                      <a href="#">Услуги</a>
+                      <i></i>
+                      <ul>
+                        <li><a href="#">Лазерная резка</a></li>
+                        <li><a href="#">Гравировка</a></li>
+                        <li><a href="#">Лазерная маркировка</a></li>
+                        <li><a href="#">Вырубка</a></li>
+                        <li><a href="#">Фрезерные услуги</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Продукция</a></li>
+                    <li><a href="#">Цены</a></li>
+                    <li><a href="#">Оборудование</a></li>
+                    <li><a href="#">Сервис</a></li>
+                    <li><a href="#">контакты</a></li>
+                  </ul>
+                </div>
+                <a href="#" class="header_menu-ham"><i></i></a>
+              </div>
             </div>
-            <a href="#" class="header_menu-ham"><i></i></a>
           </div>
         </div>
       </div>
@@ -185,19 +201,19 @@
               <p>Собственная производственная база позволяет проверять технологии и&nbsp;технические возможности, поставляемого оборудования. Дополнительно предоставляем услуги по&nbsp;обучению операторов и&nbsp;даем консультации по&nbsp;технологиям лазерной обработки.</p>
               <p>Цех оснащен профессиональными станками последнего поколения, насчитывает более 15&nbsp;различных единиц оборудования.</p>
             </div>
-            <div class="production_item production_item__img">
+            <div class="production_item hImg">
               <a href="#"><img src="img/production/1.jpg" alt=""></a>
             </div>
-            <div class="production_item production_item__img">
+            <div class="production_item hImg">
               <a href="#"><img src="img/production/2.jpg" alt=""></a>
             </div>
-            <div class="production_item production_item__img">
+            <div class="production_item hImg">
               <a href="#"><img src="img/production/3.jpg" alt=""></a>
             </div>
-            <div class="production_item production_item__img">
+            <div class="production_item hImg">
               <a href="#"><img src="img/production/4.jpg" alt=""></a>
             </div>
-            <div class="production_item production_item__video">
+            <div class="production_item hVid">
               <a href="#"><img src="img/production/5.jpg" alt=""></a>
             </div>
           </div>
@@ -207,19 +223,19 @@
             <p>Цех оснащен профессиональными станками последнего поколения, насчитывает более 15&nbsp;различных единиц оборудования.</p>
             <div class="production_slider" id="production-slider">
               <ul class="slides">
-                <li class="production_item production_item__img">
+                <li class="production_item hImg">
                   <a href="#"><img src="img/production/1.jpg" alt=""></a>
                 </li>
-                <li class="production_item production_item__img">
+                <li class="production_item hImg">
                   <a href="#"><img src="img/production/2.jpg" alt=""></a>
                 </li>
-                <li class="production_item production_item__img">
+                <li class="production_item hImg">
                   <a href="#"><img src="img/production/3.jpg" alt=""></a>
                 </li>
-                <li class="production_item production_item__img">
+                <li class="production_item hImg">
                   <a href="#"><img src="img/production/4.jpg" alt=""></a>
                 </li>
-                <li class="production_item production_item__video">
+                <li class="production_item hVid">
                   <a href="#"><img src="img/production/5.jpg" alt=""></a>
                 </li>
               </ul>
@@ -281,7 +297,7 @@
             </div>
             <div class="footer_col">
               <div class="footer_order">
-                <a href="#" class="btn btn__shadow">Отправить заявку</a>
+                <a href="#" class="btn">Отправить заявку</a>
                 <p class="footer_caption">Перезвоним вам <br>и  ответим на все вопросы</p>
               </div>
             </div>
